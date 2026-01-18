@@ -4,7 +4,7 @@ on:
   push:
       branches: [ main ]
         schedule:
-            - cron: '0 */6 * * *' # Re-run every 6 hours to ensure it stays alive
+            - cron: '0 */6 * * *'
               workflow_dispatch:
 
               jobs:
